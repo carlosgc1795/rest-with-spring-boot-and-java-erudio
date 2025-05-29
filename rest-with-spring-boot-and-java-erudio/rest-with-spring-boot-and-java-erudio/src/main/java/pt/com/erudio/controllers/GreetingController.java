@@ -8,7 +8,7 @@ import pt.com.erudio.model.Greeting;
 
 @RestController
 public class GreetingController {
-    private String test;
+
     private static final String template = "Hello, %s!";
     private final AtomicLong counter = new AtomicLong();
 
